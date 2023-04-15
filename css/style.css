@@ -1,0 +1,484 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.max-width {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* start css nav menu */
+#nav-menu {
+
+}
+
+.flex-content {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.logo-index {
+    
+}
+
+.info-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+}
+
+.info {
+    
+}
+
+.detail-info-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/bg-menu-top.png);
+    width: 1065px;
+    height: 39px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.detail-info a {
+    color: #fff;
+}
+
+.detail-info img {
+    padding-right: 5px;
+    float: left;
+    padding-top: 6px;
+}
+
+.detail-info p {
+    padding-left: 50px;
+}
+
+.contact-other {
+    margin-right: 100px;
+    margin-bottom: 0px;
+}
+
+.contact-other img {
+    padding-right: 5px;
+}
+
+.nav-menu > ul { 
+    list-style: none;
+    padding: 20px 55px;
+    margin-right: 30px;
+}
+
+.nav-menu > ul.menu > li {
+    text-transform: uppercase;
+    float: left;
+}
+
+.nav-menu > ul.menu > li > a {
+    font-size: 17px;
+    padding: 20px;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.menu > li::after {
+    content: "";
+    position: absolute;
+    background: url(../images/ic-hover-menu.png);
+    display: flex;
+    width: 51px;
+    height: 4px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    opacity: 0;
+}
+
+.menu > li:hover::after {
+    opacity: 1;
+    transition: ease-in .3s;
+}
+/* end css nav menu */
+
+/* start css banner */
+.info-banner {
+    position: relative;
+}
+
+.info-banner img {
+    height: 542px;
+    width: 100%;
+}
+
+.info-company {
+    position: absolute;
+    top: 28%;
+    left: 5%;
+    color: #fff;
+    text-align: center;
+}
+
+.info-company h1 {
+    padding: 25px;
+    font-size: 40px;
+}
+
+.info-company h2 {
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+
+.info-company p {
+    font-weight: bold;
+    background-color: #35363a;
+    width: 180px;
+    border-radius: 8px;
+    padding: 12px;
+}
+/* end css banner */
+
+/* start css about us */
+#about-us {
+    margin-top: -5px
+}
+
+.about-us-content {
+    margin-top: -15px;
+}
+
+.box-left {
+    width: 100%;
+}
+
+.box-left img {
+    height: 499px;
+    width: 100%;
+}
+/* start css box right */
+.box-right {
+    height: 495px;
+    width: 100%;
+    background: url(../images/bg-box-right.jpg);
+    text-align: center;
+    /* padding-right: 60px; */
+}
+
+.padding-right-box {
+    margin-right: 60px;
+}
+
+.title-content h2 {
+    padding-top: 50px;
+    color: #fff;
+}
+
+.desc-content {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.desc-content p {
+    text-align: justify;
+    color: #fff;
+    max-width: 500px;
+}
+
+.button a {
+    color: #fff;
+    background-color: #35363a;
+    border-radius: 8px;
+    padding: 10px 50px;
+}
+/* end css about us */
+
+/* css interior */
+.title-prod {
+    text-align: center;
+    margin-top: -4px;
+}
+
+.title-prod h2 {
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
+.product-construction {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.detail-product {
+    width: 259px;
+    height: 258px;
+    display: block;
+    margin-bottom: 95px !important;
+    margin: 0px 10px;
+}
+
+.detail-product:hover {
+    /* box-shadow: 0px 1px 7px 1px #888888; */
+}
+
+.detail-product img {
+    width: 259px;
+    height: 258px;
+}
+
+.content-prod-construction {
+    background-color: #35363a;
+    color: #fff;
+    padding: 15px;
+    margin-top: -4px;
+    line-height: 22px;
+}
+
+.content-prod-construction h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.content-prod-construction p {
+    font-size: 13px;
+}
+/* end css instruction */
+
+/* css banner why */
+.img-banner-why {
+    position: relative;
+}
+
+.img-banner-why img {
+    width: 100%;
+}
+
+.contact-banner a {
+    color: #fff;
+    position: absolute;
+    top: 34.33333%;
+    left: 16.55555%;
+    font-size: 22px;
+    padding: 16px 24px;
+}
+/* end css banner why */
+
+/* css interior */
+.prod-interior {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5%;
+}
+
+.detail-prod-interior {
+    width: auto;
+    height: auto;
+    text-align: center;
+    border: 1px solid #b5b5b5;
+    padding: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 15%;
+}
+
+.desc-prod-interior {
+    padding: 10px;
+    line-height: 22px;
+}
+
+.desc-prod-interior h5 {
+    color: #565656;
+}
+
+.desc-prod-interior p {
+    color: #ca7d1f;
+    font-weight: 500;
+}
+
+.ic-slideshow {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.ic-slideshow a {
+    padding: 5px;
+}
+
+/* end css interior */
+
+/* css start feedback */
+.box-feedback {
+    background-color: #35363a;
+    height: auto;
+    padding-bottom: 70px;
+}
+
+.color-feedback {
+    color: #fff;
+}
+
+.box-detail {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px 90px;
+}
+
+.detail-feedback {
+    background-color: #fff;
+    width: 286px;
+    height: 130px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.name-customers {
+    position: relative;
+}
+
+.decor {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.name-customers img {
+    float: left;
+    padding-right: 10px;
+}
+
+.name-customers h4 {
+    color: #ca7d1f;
+    padding-top: 15px;
+}
+
+.name-customers p {
+    font-size: 14px;
+    padding-top: 2px;
+    color: #565656;
+}
+
+.desc-customers {
+    clear: left;
+    padding-top: 10px;
+    font-style: italic;
+}
+/* css end feedback */
+
+/* css start footer */
+.list-footer {
+    background-color: #e1c29f;
+    height: 346px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-company {
+    margin-left: 100px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.copy-right {
+    position: absolute;
+    color: #fff;
+    font-size: 13px;
+    bottom: -105px;
+}
+
+.logo-company img {
+    width: 230px;
+}
+
+.info-company-footer {
+    width: 340px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.info-company-footer h2 {
+    padding-bottom: 15px;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 0px;
+}
+
+.flex-footer p {
+    text-align: justify;
+    margin-left: 0px;
+}
+
+.flex-footer img {
+    margin-left: 0px;
+    width: 15px;
+    margin-right: 7px;
+}
+
+.customer-care {
+    color: #fff;
+    margin-top: 45px;
+}
+
+.customer-care h4 {
+    margin-bottom: 20px;
+}
+
+.customer-care p {
+    line-height: 40px;
+}
+
+.customer-care a {
+    color: #fff;
+}
+
+.fanpage-company {
+    margin-top: 45px;
+    color: #fff;
+    margin-right: 70px;
+}
+
+.fanpage-company h4 {
+    margin-bottom: 15px;
+}
+
+.fanpage-company img {
+    width: 250px;
+    height: 210px;
+}
